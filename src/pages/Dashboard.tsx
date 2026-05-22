@@ -1,8 +1,9 @@
+import DashboardNav from "../components/DashboardNav"
 
 const Dashboard = () => {
   return (
     <div>
-        Dashboard
+        <DashboardNav />
     </div>
   )
 }

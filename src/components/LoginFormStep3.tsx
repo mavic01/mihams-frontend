@@ -7,7 +7,7 @@ type LoginFormStep3Props = {
 const LoginFormStep3 = ({step}: LoginFormStep3Props) => {
   return (
     step === 3 && (<div className="space-y-4 flex flex-col items-center justify-center">
-      <h2 className="font-sf font-medium text-[34px] text-center text-[#013C61] whitespace-nowrap">
+      <h2 className="font-sf font-medium text-[34px] text-center text-[#013C61] md:whitespace-nowrap">
         Great to have you onboard
       </h2>
       <p className="font-sf text-[18px] text-center text-[#6A7E8A]">
